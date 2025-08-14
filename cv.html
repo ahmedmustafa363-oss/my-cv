@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سيرة ذاتية | أحمد مصطفى أحمد</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+        /* Custom styles for print */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .print-full-width {
+                width: 100% !important;
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+            }
+            .print-bg-white {
+                background-color: white !important;
+            }
+            .print-text-black {
+                color: black !important;
+            }
+        }
+        .skill-bar-fill {
+            transition: width 1.5s ease-in-out;
+            width: 0%;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-6xl">
+        <div class="bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+
+            <!-- Sidebar / Right Column in RTL -->
+            <div class="w-full md:w-1/3 bg-slate-800 text-white p-8 print-full-width">
+                <div class="flex flex-col items-center">
+                    <img src="https://placehold.co/150x150/e2e8f0/334155?text=A" alt="صورة شخصية" class="rounded-full border-4 border-slate-500 shadow-lg w-36 h-36">
+                    <h1 class="text-3xl font-bold mt-6 text-center">أحمد مصطفى أحمد</h1>
+                    <h2 class="text-lg text-slate-300 mt-2">مدرس لغة فرنسية</h2>
+                </div>
+
+                <div class="mt-10">
+                    <h3 class="text-xl font-bold border-b-2 border-slate-500 pb-2 mb-4 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        معلومات الاتصال
+                    </h3>
+                    <ul class="space-y-4 text-slate-200">
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-3 text-slate-400" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" /></svg>
+                            <span>المرج، القاهرة</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-3 text-slate-400" viewBox="0 0 20 20" fill="currentColor"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg>
+                            <span>01150145678</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-3 text-slate-400" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg>
+                            <!-- Important: Replace with your actual email -->
+                            <span>ahmed.mustafa363@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mt-10">
+                    <h3 class="text-xl font-bold border-b-2 border-slate-500 pb-2 mb-4">المهارات</h3>
+                    <div class="space-y-4 skill-section">
+                        <div>
+                            <p>إدارة الفصول الدراسية</p>
+                            <div class="bg-slate-600 rounded-full h-2.5 mt-1"><div class="bg-cyan-400 h-2.5 rounded-full skill-bar-fill" data-width="95%"></div></div>
+                        </div>
+                        <div>
+                            <p>تطوير المناهج التعليمية</p>
+                            <div class="bg-slate-600 rounded-full h-2.5 mt-1"><div class="bg-cyan-400 h-2.5 rounded-full skill-bar-fill" data-width="90%"></div></div>
+                        </div>
+                        <div>
+                            <p>استخدام التكنولوجيا في التعليم</p>
+                            <div class="bg-slate-600 rounded-full h-2.5 mt-1"><div class="bg-cyan-400 h-2.5 rounded-full skill-bar-fill" data-width="85%"></div></div>
+                        </div>
+                        <div>
+                            <p>برامج Microsoft Office</p>
+                            <div class="bg-slate-600 rounded-full h-2.5 mt-1"><div class="bg-cyan-400 h-2.5 rounded-full skill-bar-fill" data-width="95%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-10">
+                    <h3 class="text-xl font-bold border-b-2 border-slate-500 pb-2 mb-4">اللغات</h3>
+                    <ul class="space-y-2">
+                        <li><strong>العربية:</strong> اللغة الأم</li>
+                        <li><strong>الفرنسية:</strong> طلاقة (لغة التخصص)</li>
+                        <li><strong>الإنجليزية:</strong> جيد</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Main Content / Left Column in RTL -->
+            <div class="w-full md:w-2/3 p-8 md:p-12 print-full-width print-bg-white">
+                <div class="mb-12">
+                    <h3 class="text-3xl font-bold text-slate-800 border-b-4 border-cyan-400 pb-2 mb-4">الملخص الشخصي</h3>
+                    <p class="text-lg leading-relaxed">
+                        مدرس لغة فرنسية متخصص ومتحمس، أمتلك خبرة عملية تمتد منذ عام 2014 في مجال التعليم. أتميز بالقدرة على تطوير المناهج وتقديم تجارب تعليمية تفاعلية للطلاب. أسعى لتطبيق شغفي باللغة والثقافة الفرنسية لإلهام الطلاب وتحقيق نتائج أكاديمية متميزة في بيئة تعليمية محفزة.
+                    </p>
+                </div>
+
+                <div class="mb-12">
+                    <h3 class="text-3xl font-bold text-slate-800 border-b-4 border-cyan-400 pb-2 mb-4">الخبرة العملية</h3>
+                    <div class="relative border-r-2 border-gray-200 ml-4">
+                        <!-- The content block for the entry. Changed ml-8 to mr-12 to add space -->
+                        <div class="mb-8 mr-12">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-cyan-400 rounded-full -right-3 ring-8 ring-white"></span>
+                            <h4 class="text-xl font-bold text-slate-700">مدرس لغة فرنسية</h4>
+                            <p class="text-md font-semibold text-gray-600">مدرسة الأورمان للغات</p>
+                            <time class="text-sm font-normal text-gray-500">2014 - حتى الآن</time>
+                            <ul class="list-disc mt-2 mr-5 space-y-1 text-gray-700">
+                                <li>تخطيط وتقديم دروس اللغة الفرنسية لصفوف متعددة، مع التركيز على القواعد والمفردات والمحادثة.</li>
+                                <li>تطوير مواد تعليمية وأنشطة صفية مبتكرة لزيادة مشاركة الطلاب وتحفيزهم.</li>
+                                <li>تقييم أداء الطلاب بشكل دوري وتقديم ملاحظات بناءة لدعم تطورهم.</li>
+                                <li>التواصل الفعال مع أولياء الأمور لمناقشة تقدم أبنائهم الأكاديمي والسلوكي.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-3xl font-bold text-slate-800 border-b-4 border-cyan-400 pb-2 mb-4">التعليم</h3>
+                     <div class="relative border-r-2 border-gray-200 ml-4">
+                        <!-- The content block for the entry. Changed ml-8 to mr-12 to add space -->
+                        <div class="mb-8 mr-12">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-cyan-400 rounded-full -right-3 ring-8 ring-white"></span>
+                            <h4 class="text-xl font-bold text-slate-700">ليسانس الآداب والتربية - قسم اللغة الفرنسية</h4>
+                            <p class="text-md font-semibold text-gray-600">كلية التربية، جامعة الأزهر</p>
+                            <time class="text-sm font-normal text-gray-500">تخرج عام 2013</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Print Button -->
+        <div class="text-center mt-8 no-print">
+            <button onclick="window.print()" class="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                طباعة السيرة الذاتية
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for skill bar animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const skillSection = document.querySelector('.skill-section');
+            const skillBars = document.querySelectorAll('.skill-bar-fill');
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        skillBars.forEach(bar => {
+                            bar.style.width = bar.getAttribute('data-width');
+                        });
+                        observer.unobserve(skillSection); // Animate only once
+                    }
+                });
+            }, { threshold: 0.5 }); // Trigger when 50% of the section is visible
+
+            if(skillSection) {
+                observer.observe(skillSection);
+            }
+        });
+    </script>
+</body>
+</html>
